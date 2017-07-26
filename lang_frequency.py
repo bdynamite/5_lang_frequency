@@ -1,6 +1,8 @@
 import re
 import collections
 
+WORDS_QANTITY = 10
+
 
 def load_data(filepath):
     try:
@@ -11,9 +13,9 @@ def load_data(filepath):
         exit()
 
 
-def get_most_frequent_words(words, n):
+def get_most_frequent_words(words):
     words_counter = collections.Counter(words)
-    return words_counter.most_common(n)
+    return words_counter.most_common(WORDS_QANTITY)
 
 
 def get_words(text):
@@ -22,7 +24,7 @@ def get_words(text):
 
 
 if __name__ == '__main__':
-    data = load_data(input('input text path: '))
-    words = get_words(data)
-    most_frequent = get_most_frequent_words(words, 10)
+    text = load_data(input('input text path: '))
+    words = get_words(text)
+    most_frequent = get_most_frequent_words(words)
     print(most_frequent)
