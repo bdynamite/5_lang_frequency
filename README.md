@@ -1,12 +1,20 @@
-# Frequency Analysis of Words
+    # Frequency Analysis of Words
 
-Вставьте текстовый файл в папку со скриптом и запустите его.
-Скрипт выведет 10 самых популярных слов в порядке уменьшения.
+# Quickstart
 
-1) ("мама", 56)
-2) ("папа", 37)
-3) ("деньги", 30)
-...
+
+Example of script launch on Linux, Python 3.5:
+
+```#!bash
+
+$ python pprint_json.py
+input data path: C:\...\some_text.txt  # input full path
+# output example
+[('и', 13), ('в', 7), ... ('работу', 3)]
+
+
+```
+
 
 # Project Goals
 
