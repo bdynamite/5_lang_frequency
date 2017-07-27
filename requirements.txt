@@ -1,2 +1,0 @@
-re==2.2.1
-collections==3.6

@@ -9,9 +9,12 @@ Example of script launch on Windows, Python 3.5:
 
 $ python pprint_json.py
 input data path: C:\...\some_text.txt  # input full path
+how much words do you want to see? 10
 # output example
-[('и', 13), ('в', 7), ... ('работу', 3)]
-
+word "проекта" occures 12 times
+word "При" occures 8 times
+...
+...
 
 ```
 
